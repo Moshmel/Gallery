@@ -1,0 +1,120 @@
+html,body{
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+
+body{
+	background-color:rgb(30, 208, 240);
+	
+	font-family: sans-serif;
+	text-align: center;
+}
+.board-container
+{
+	margin-left:20%;
+	
+
+
+}
+
+.cell
+{
+    background-color:lightgrey;
+    display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	width: 2em;
+	height: 2em;
+	margin: 0;
+	color: gray;
+	transition: background-color 0.5s ease;
+    
+    
+	/* appearance: none;
+	outline: none; */
+	/* background-image: url(https://dl.dropboxusercontent.com/spa/ihqn7sv44ik7per/pen-res/minesweeper_tiles.jpg); */
+
+}
+.flag
+{
+    
+}
+.show
+{
+    background-color:red;
+
+}
+.picsmiley
+{
+	width: 3em;
+	height: 3em;
+}
+.pic{
+	width: 2em;
+	height: 2em;
+
+}
+header
+{
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	margin-left: 20%;
+
+	display: flex;
+	align-items: center;
+
+padding: 5px;
+}
+.btns
+{
+	padding: 20px;
+	position: absolute;
+
+	margin-left:20%;
+}
+.smiley
+{
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+
+}
+button{
+	background:rgb(20, 168, 212);
+	color:#fff;
+	border:none;
+	position:relative;
+	height:40px;
+	font-size:1em;
+	padding:0.4em;
+	cursor:pointer;
+	transition:800ms ease all;
+	outline:none;
+  }
+  button:hover{
+	background:#fff;
+	color:rgb(20, 168, 212);
+  }
+  button:before,button:after{
+	content:'';
+	position:absolute;
+	top:0;
+	right:0;
+	height:2px;
+	width:0;
+	background: #1AAB8A;
+	transition:400ms ease all;
+  }
+  button:after{
+	right:inherit;
+	top:inherit;
+	left:0;
+	bottom:0;
+  }
+  button:hover:before,button:hover:after{
+	width:100%;
+	transition:800ms ease all;
+  }
+  

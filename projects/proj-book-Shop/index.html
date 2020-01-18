@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body onload="init()">
+    <div class="header-container">
+        <h1>Welcome to my BookStore!</h1>
+        <button type="button" class="btn btn-outline-secondary"onclick="onAddNewBook()">Add new book</button>
+    </div>
+    <div class="book-container">
+        <table class="table my-table">
+
+        </table>
+
+    </div>
+    <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Update Book!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="update-book">
+                    
+                </div>  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" onClick="onSaveChanges()">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"onclick="onClosePress()">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+    <script src="lib/utility/util-service.js"></script>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/bootstrap.js"></script>
+    <script src="js/book-controller.js"></script>
+    <script src="js/book-service.js"></script>
+</body>
+
+</html>
