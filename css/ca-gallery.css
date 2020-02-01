@@ -40,6 +40,9 @@ section h3.section-subheading {
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.text-muted{
+    font-size: 18px;
+}
 @media (min-width: 768px) {
     section {
         padding: 150px 0;
@@ -205,6 +208,13 @@ header.masthead .intro-text {
 }
 header.masthead .intro-text .intro-lead-in {
     font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 10px !important;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+header.masthead .intro-text .intro-lead-in-second {
+    font-size: 18px;
     font-style: italic;
     line-height: 22px;
     margin-bottom: 25px;
@@ -559,6 +569,7 @@ header.masthead .intro-text .intro-heading {
 }
 .team-member {
     text-align: center;
+    padding-bottom: 33px;
 }
 .team-member img {
     width: 225px;

@@ -143,8 +143,8 @@ var gPortfolioArr=[
                   <li>Date: ${date}</li>
                   <li>Category: Web app</li>
                 </ul>
-                <div><a href="${port.link}"><h3>To app</h3></a></div>
-                <div><a href="${port.code}"><h3>To code</h3></a></div>
+                <div><a href="${port.link}" target="_blank"><h3>To app</h3></a></div>
+                <div><a href="${port.code}" target="_blank"><h3>To code</h3></a></div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
