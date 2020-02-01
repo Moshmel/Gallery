@@ -158,7 +158,6 @@ var gPortfolioArr=[
   </div>`
     })
     modalHtml=modalHtml.join('');
-    console.log(modalHtml);
     $('#modal-container').html(modalHtml);
   }
 
